@@ -69,9 +69,9 @@ setup(
         'pytest-runner~=5.2',
     ],
     install_requires=[
-        'Flask~=1.1',
-        'Flask-Compress~=1.8',
-        'Flask-Login~=0.5',
+        'Flask~=2.2.2',
+        'Flask-Compress~=1.18',
+        'Flask-Login~=0.6',
         'rauth~=0.7',
         'pysam~=0.16',
         'intervaltree~=3.1',
@@ -86,7 +86,7 @@ setup(
         'gevent~=25.5',
         'psutil~=5.8',
         'jinja2~=3.0',
-        'markupsafe==2.0.1',  # flask 1.1 uses jinja 2.x which breaks with markupsafe>2.0.1.  Pinning all deps might be better.
+        'markupsafe==2.1.1',  # flask 1.1 uses jinja 2.x which breaks with markupsafe>2.0.1.  Pinning all deps might be better.
     ],
     tests_require=[
         'pytest~=6.2',
